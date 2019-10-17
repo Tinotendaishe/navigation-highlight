@@ -1,4 +1,27 @@
 html {
   background-color: #ffe500;
   font-family: Georgia, Sigmar One;
+  line-height: 1.5;
+  margin: .3em;
+  padding: .2em .5em .3em;
+}
+
+h1 {
+
+}
+
+.nav {
+
+}
+
+.nav li {
+
+}
+
+.nav:hover {
+
+}
+
+.current {
+
 }
