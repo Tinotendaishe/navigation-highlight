@@ -1,13 +1,19 @@
 html {
   background-color: #ffe500;
-  font-family: Georgia, Sigmar One;
+  font-family: Georgia;
   line-height: 1.5;
-  margin: .3em;
-  padding: .2em .5em .3em;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
+  font-family: "Sigmar One", serif;
+  color: #b20953;
+}
 
+body {
+  margin: .3em;
+  padding: .2em .5em .3em;
 }
 
 .nav {
