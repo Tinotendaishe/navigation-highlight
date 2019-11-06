@@ -56,7 +56,6 @@ body {
 .nav a {
   padding: .2em .5em .3em;
   margin: .3em;
-  background-color: #2f2d13;
 }
 .current {
   background-color: #cc1465;
