@@ -1,6 +1,6 @@
 html {
   background-color: #ffe500;
-  font-family: "Sigmar One", serif;
+  font-family: Georgia;
   line-height: 1.5;
   box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ h2 {
 
 p {
   font-family: serif;
-  color: black;
+  color: #2f2d13;
 }
 
 img {
