@@ -1,10 +1,13 @@
 html {
   background-color: #ffe500;
-  font-family: Georgia;
+  font-family: "Sigmar One", serif;
   line-height: 1.5;
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -17,6 +20,9 @@ h1 {
   text-align: center;
   font-size: 3rem;
   background-color:#ffe500;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 h2 {
@@ -26,26 +32,40 @@ h2 {
   font-size: 1.875rem;
 }
 
+p {
+  font-family: serif;
+  color: black;
+}
+
 img {
-  width: 100%;
+  display: block;
   Corner radius: 4px;
+  margin: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0.75em;
 }
 
 header {
     background-color:#ffe500;
+    margin: 0 auto;
 }
 
-body {
-  margin: .3em;
-  padding: .2em .5em .3em;
-  background-color: #fff;
-}
-
-.nav {
-
+footer {
+  background-color: #ffe500;
+  text-align: center;
+  height: 50px;
+  display: block;
 }
 
 .nav li {
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding: .2em .5em .3em;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.25);
+  overflow: auto;
 
 }
 
@@ -55,7 +75,11 @@ body {
 
 .nav a {
   padding: .2em .5em .3em;
-  margin: .3em;
+  margin: .3em
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
 }
 .current {
   background-color: #cc1465;
