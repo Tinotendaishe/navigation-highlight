@@ -34,6 +34,7 @@ h2 {
 
 p {
   font-family: serif;
+  font-size: .75rem;
   color: #2f2d13;
 }
 
@@ -41,13 +42,13 @@ img {
   display: block;
   margin: auto;
   height: auto;
-  max-width: 100%;
+  width: 100%;
   padding: .75em;
 }
 
 header {
   background-color: #ffe500;
-  margin: 0 auto;
+  margin: .3em;
 }
 
 footer {
@@ -69,12 +70,15 @@ footer {
 
 .nav a:hover {
   background-color: #cc1465;
+  padding: .2em .5em .3em;
+  margin: .3em;
 }
 
 .nav a {
-  padding: .2em .5em .3em;
-  margin: .3em;
+  padding: 0;
+  margin: 0;
   text-decoration: none;
+  font-size: 1.125rem;
   color: #fff;
   border-radius: 4px;
   display: inline-block;
@@ -82,4 +86,8 @@ footer {
 
 .current {
   background-color: #cc1465;
+}
+
+.main {
+  background-color: #fff;
 }
