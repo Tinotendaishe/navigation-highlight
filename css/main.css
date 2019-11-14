@@ -43,7 +43,6 @@ img {
   margin: auto;
   height: auto;
   width: 100%;
-  padding: .75em;
 }
 
 header {
@@ -70,8 +69,7 @@ footer {
 
 .nav a:hover {
   background-color: #cc1465;
-  padding: .2em .5em .3em;
-  margin: .3em;
+  border-radius: 4px;
 }
 
 .nav a {
@@ -81,7 +79,8 @@ footer {
   font-size: 1.125rem;
   color: #fff;
   border-radius: 4px;
-  display: inline-block;
+  background-color: #b2a212;
+  display: inline;
 }
 
 .current {
@@ -90,4 +89,8 @@ footer {
 
 .main {
   background-color: #fff;
+}
+
+main {
+  padding: .75em;
 }
